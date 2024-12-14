@@ -13,3 +13,9 @@ ol {
 body {
     font-size: x-large;
 }
+html {
+    background-color: azure;
+}
+html {
+    background-image: -moz-element();
+}
