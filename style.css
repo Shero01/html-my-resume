@@ -1,0 +1,15 @@
+h1 {
+    color: blue
+}
+h2 {
+    color:blueviolet
+}
+* {
+    text-align: justify;
+}
+ol {
+    list-style-position: inside;
+}
+body {
+    font-size: x-large;
+}
