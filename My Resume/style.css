@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+    background-color: #85A98F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}   
+h2 {
+    color:#E5E3D4;
+    background-color: #FF748B;
+    width: 400px;
+}
+* {
+    text-align: justify;
+}
+ol {
+    list-style-position: inside;
+}
+body {
+    font-size: x-large;
+}
+html {
+    background-color: #D6CFB4;
+}
+html {
+    background-image: #72BAA9;
+}
+img {
+    float: left;
+}
