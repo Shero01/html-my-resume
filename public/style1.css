@@ -3,5 +3,24 @@ h1 {
     background-color: #85A98F;
 }
 body {
-    font-size: x-large;
+    font-size: 2rem;
+}
+body > p:nth-child(2) {
+    display: inline-block;
+    
+}
+body > p:nth-child(3) {
+    display: inline;
+    color: blue;
+    font-style: italic;
+}
+body > p:nth-child(2) {
+    font-size: 3rem;
+}
+body > p:nth-child(4) {
+    font-size: 4rem;
+    display: block;
+}
+body > dev > p:nth-child(2) {
+    font-size: 3rem;
 }

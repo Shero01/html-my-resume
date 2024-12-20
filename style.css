@@ -3,6 +3,7 @@ h1 {
     background-color: #85A98F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
+    font-style: italic;
 }   
 h2 {
     color:#E5E3D4;
@@ -26,4 +27,8 @@ html {
 }
 img {
     float: left;
+}
+#reserved > p {
+    background-color: #563A9C;
+    color: hsl(0, 0%, 97%);
 }
