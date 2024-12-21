@@ -13,6 +13,7 @@ body > p:nth-child(3) {
     display: inline;
     color: rgb(3, 52, 160);
     font-style: italic;
+    font-size: 1.5rem;
 }
 body > p:nth-child(2) {
     font-size: 3rem;
