@@ -1,13 +1,12 @@
+@media (min-width: 200px) and (max-width: 1601px) {
 h1 {
     color: blue;
-    background-color: #85A98F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     font-style: italic;
 }   
 h2 {
-    color:#E5E3D4;
-    background-color: #FF748B;
+    color:#a801f5e8;
     width: 400px;
 }
 * {
@@ -19,16 +18,18 @@ ol {
 body {
     font-size: x-large;
 }
-html {
-    background-color: #D6CFB4;
-}
-html {
-    background-image: #72BAA9;
-}
-img {
-    float: left;
+body {
+    background-color: #b4c4d6;
 }
 #reserved > p {
     background-color: #563A9C;
     color: hsl(0, 0%, 97%);
+}
+}
+@media (min-width: 300px) {
+img {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
 }
