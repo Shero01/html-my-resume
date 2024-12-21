@@ -25,6 +25,10 @@ body {
     background-color: #563A9C;
     color: hsl(0, 0%, 97%);
 }
+.info {
+    font-size: 2rem;
+    color: #1900ff;
+}
 }
 @media (min-width: 300px) {
 img {
