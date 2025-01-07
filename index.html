@@ -1,63 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>My Resume</title>
-  <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
+<style>
+    /* styles.css */
+    @media (min-width: 200px) and (max-width: 1601px) {
+.container {
+    display: grid;
+    place-items: center;
+}
+img {
+    height: 300px;
+    border: 4px solid blue;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.name {
+    font-size: 7rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: blue;
+    margin-top: 20%;
+}
+.container,header {
+    display: grid;
+    background-color: rgb(143, 212, 252);
+    height: 700px;
+    margin: auto;
+}
+p {
+    font-size: 4rem;
+}
+.paragraph {
+    font-size: 2rem;
+}
+.Hello {
+    color: blue;
+    font-size: 7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Skills {
+    color: blue;
+    font-size: 7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+.Contact {
+    display: inline-block;
+    background-color: rgb(143, 212, 252);
+    color: blue;
+    font-weight:bolder;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.container>footer {
+    background-color: rgb(143, 212, 252);
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+}
+.container>footer>.paragraph {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.container>footer>.paragraph.at {
+    margin-top: 20vh;
+    background-color: rgb(176, 154, 179);
+}
+}
+</style>
 <body>
-    <h1>Ansumana Sheriff<br/> <span class="info">
-        <ul>
-            <li>11th May, 1997<br/>
-            <li>Sierra Leonean<br/></span></li>
-            </li>
-        </ul>
-    </h1>
-    <img src="./assets/image/my pic.jpg" height="150" alt="My profile picture">
-    <h2>Summary:</h2>
-    <p>I am a High School graduate with experience in Microsoft Office Suites</p>
-    <hr>
-    <h2>Education:</h2>
-    <p>High School Graduate in The West Africa Senior Secondary School Certication Examination in the Science Faculty.
-    <br>Ahmadiyya Secondary School, Pendembu, Sierra Leone, 2020.<br>
-    </p>
-    <hr>
-    <h2>Work Experience:</h2>
-    <h4>August 2021 to date</h4>
-    <ul>
-        <li>Internal Management System (I.M.S) Manager
+    <div class="container">
+        <header>
+            <div class="paragraph1">
+                <div class="name">I am Ansumana Sheriff<br> <p>a <u>prog</u>rammer</p></div>
+            </div>
+        </header>
+        <div class="Image">
+            <div class="img"><img src="./assets/image/my pic.jpg" alt="My Image"></div>
+        </div>
+        <div class="paragraph Hello">Hello.</div>
+        <div class="paragraph">I am a High School graduate with<br>experience in Microsoft Office Suites</div>
+        <div class="paragraph">I Have basic knowledge in the following fields:</div>
+        <div class="paragraph list">
+        <div class="paragraph Skills">Skills</div>
             <ul>
-                <li>Responsible for data collection</li>
-                <li>contact person</li>
+                <li>Microsoft Office Suite.</li>
+                <li>GPS survey and mapping.</li>
+                <li>Basic knowledge in QGIS and google earth pro.</li>
+                <li>Computer hardware maintainance and Operating system and software installations (WindowsOS, macOS and ChromebookOS to WindowsOS).</li>
+                <li>Wed and App developer at Udemy online Courses(currently)</li>
             </ul>
-        </li>
-    </ul>
-    <hr>
-    <h2>Skills:</h2>
-    <ul>
-        <li>Microsoft Office Suite.</li>
-        <li>GPS survey and mapping.</li>
-        <li>Basic knowledge in QGIS and google earth pro.</li>
-        <li>Computer hardware maintainance and Operating system and software installations (Microsoft windows, macOS).</li>
-    </ul>
-    <hr>
-    <h2>Award and Certification:</h2>
-    <ul>
-        <li>Best farm surveyor 2024</li>
-    </ul>
-    <hr>
-    <h2>Other:</h2>
-    <a href="./public/my-hobbies.html">My Hobbies</a><br>
-    <a href="./public/contact.html">My Contacts</a><br>
-    <hr>
-  <dev id="reserved">
-    <p>
-        © Ansumana Sheriff. All rights reserved
-    </p>
-  </dev>
-
+        </div>
+        <div>
+            <button class="Contact"><a href="./public/contact.html">Contact Me</a></button>
+        </div>
+        <footer>
+            <div class="paragraph"><a href="./public/my-hobbies.html">Hobbies</a></div>
+            <div class="paragraph"><a>WhatsApp</a></div>
+            <div class="paragraph"><a>Facebook</a></div>
+            <div class="paragraph"><a>Email</a></div>
+            <div class="paragraph at">© Ansumana Sheriff. All rights reserved</div>
+        </footer>
+    </div>
 </body>
 
 </html>
